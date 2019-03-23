@@ -1,0 +1,12 @@
+[package]
+name = "staticfilehyper"
+version = "0.1.0"
+authors = ["Chris Greene <archgoon@gmail.com>"]
+
+[dependencies]
+hyper = "0.12"
+itertools = "0.8"
+
+[[bin]]
+name = "staticfilehyper"
+path = "main.rs"
